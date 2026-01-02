@@ -73,7 +73,7 @@ namespace PlotPreview
 
         private void button5_Click(object sender, EventArgs e)
         {
-            dxfReaderNETControl1.PlotRotation = PlotOrientationType.Landscape;
+            dxfReaderNETControl1.PlotOrientation = PlotOrientationType.Landscape;
             dxfReaderNETControl1.PlotRendering = PlotRenderingType.Monochrome;
             dxfReaderNETControl1.PlotMode = PlotModeType.Extents;
             dxfReaderNETControl1.PlotUnits = PlotUnitsType.Millimeters;
